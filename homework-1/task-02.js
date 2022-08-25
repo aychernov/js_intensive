@@ -2,12 +2,12 @@
 
 function calc() {
   // Отдельные проверки для завершения в случае ошибки
-  const firstNum = +prompt('Введите первое число')
+  const firstNum = Number(prompt('Введите первое число'))
   if (isNaN(firstNum)) {
     console.log("Некорректный ввод!")
     return
   }
-  const secNum = +prompt('Введите второе число')
+  const secNum = Number(prompt('Введите второе число'))
   if (isNaN(secNum)) {
     console.log("Некорректный ввод!");
     return
